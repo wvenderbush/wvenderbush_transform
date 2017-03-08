@@ -106,7 +106,7 @@ def parse_file( fname, points, transform, screen, color ):
 		if (cmd == "save"):
 			print("Saving file...\n")
 			save_extension(screen, arg)
-			#clear_screen(screen)
+			clear_screen(screen)
 			count += 2
 
 		print_matrix(points)
